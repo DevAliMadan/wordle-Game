@@ -6,32 +6,42 @@ body{
   text-align: center;
   color: white;
 }
-.gameBoard{
+
+.open-button{
+  background-color: rgb(126, 126, 126);
+  border: none;
+  color: black;
+  align-content: center;
+  font-weight: bold;
+  margin-left: 575px;
+  cursor: pointer;
+}
+.wordle{
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
   gap: 10px;
   background-color: white;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding: 10px;
   background-color: rgb(126, 126, 126);
 
 }
 
-.gameBoard > div {
-  background-color: #f1f1f1;
+.wordle > div {
+  background-color: white;
   color: #000;
   width: 30px;
   height: 30px;
-  padding: 10px;
+  padding: 5px;
   font-size: 30px;
   text-align: center;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 
 #keyboard {
-margin: 1rem 0;
+margin: 16px 0;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -42,13 +52,13 @@ display: flex;
 }
 
 .second-row {
-margin: 0.5rem 0;
+margin: 8px 0;
 }
 
 .keyboard-button {
-font-size: 1rem;
+font-size: 16px;
 font-weight: 700;
-padding: 0.5rem;
+padding: 8px;
 margin: 0 2px;
 cursor: pointer;
 text-transform: uppercase;

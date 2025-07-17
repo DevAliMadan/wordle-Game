@@ -2,6 +2,13 @@ body{
     background-color: rgb(126, 126, 126);
 }
 
+#notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
 #title{
   text-align: center;
   color: white;
@@ -55,6 +62,20 @@ display: flex;
 margin: 8px 0;
 }
 
+#reset-button {
+    background-color: rgb(126, 126, 126);
+    color: white;
+    border: none;
+    padding: ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .keyboard-button {
 font-size: 16px;
 font-weight: 700;
@@ -62,4 +83,35 @@ padding: 8px;
 margin: 0 2px;
 cursor: pointer;
 text-transform: uppercase;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: red;
 }

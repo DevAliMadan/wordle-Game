@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
-    <script src="/scripts/app.js"></script>
+    <script src="scripts/app.js" type="module"></script>
     <title>Wordle Game</title>
 </head>
 <body>
+<div id="notification-container"></div>
 <h1 id="title">Wordle Game</h1>
 <button class="open-button" Onclick="openForm()">How to Play</button>
+<button id="reset-button">Reset</button>
+<div class="form-popup" id="myForm">
+  <form class="form-container">
+    <h1>How to Play</h1>
+    <p>Guess the Wordle in 6 tries.</p>
+    <p>Each guess must be a valid 5-letter word. Hit the enter button to submit.</p>
+    <p>After each guess, the color of the tiles will change to show how close your guess was to the word.</p>
+    <hr>
+    <p><b>Examples</b></p>
+    <p>If the tile turns green, the letter is in the word and in the correct spot.</p>
+    <p>If the tile turns yellow, the letter is in the word but in the wrong spot.</p>
+    <p>If the tile turns gray, the letter is not in the word in any spot.</p>      
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
 <div class="wordle">
   <div></div>
   <div></div>

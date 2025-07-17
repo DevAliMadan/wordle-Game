@@ -1,18 +1,18 @@
 # wordle-Game
 ![alt text](image.png)
 
-## **Introduction(H2)**
+## **Introduction**
 
 a game where you have just six tries to uncover a hidden five-letter word — that’s Wordle. Simple in design, yet strangely addictive. I decided to recreate it not just because I enjoy playing it during quiet moments, but because I’ve always been intrigued by what makes it tick beneath the surface. Ahead, I’ll break down the logic behind the game and how it all comes together.
 
-## **Technologies Used(H2)**
+## **Technologies Used**
 
 * HTML5
 * CSS3
 * JavaScript
 * Git
 
-## **Win and Lose(H2)**
+## **Win and Lose**
 
  function checkGuess() {
         let guessString = currentGuess.join('');
@@ -71,14 +71,17 @@ a game where you have just six tries to uncover a hidden five-letter word — th
         }
     }
 
+**The Game**
+
+https://devalimadan.github.io/wordle-Game.
     
-## **Next Step(H2)**
+## **Next Step**
 
 * Improve the CSS
 
 * Import an online word list
 
-## **Conclusion(H2)**
+## **Conclusion**
 
 I Enjoied building Thins Game, Even if i did stuggle a little, It made me thing about the How and what, which is what i got stuck on (How should i start and with What first); In the end i really did enjoy building it 
 
